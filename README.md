@@ -4,7 +4,7 @@ HLM-***Genome*** is a *many*-polymer model to reconstruct full 3D genome structu
 
 ### System Requirements
 
-Python, [Gnuplot](gnuplot.sourceforge.net), and [PyMOL](https://pymol.org/2/) scripts to reproduce the results about HAP1 genome in our recent [work]() are deposited here, which we tested on ubuntu 18.04 LTS. [Anaconda](https://www.anaconda.com/distribution/) is recommended to manage the Python environment (Python *3.8*) and required packages, such as CuPy, H5py, NumPy, and Scipy. Last but not least, all genome models were optimized by using a NVIDIA **A100** card. 
+Python, [Gnuplot](https://gnuplot.sourceforge.net/), and [PyMOL](https://pymol.org/2/) scripts to reproduce the results about HAP1 genome in our recent [work]() are deposited here, which we tested on ubuntu 18.04 LTS. [Anaconda](https://www.anaconda.com/) is recommended to manage the Python environment (Python *3.8*) and required packages, such as CuPy, H5py, NumPy, and Scipy. Last but not least, all genome models were optimized by using a NVIDIA **A100** card. 
 
 ### File Description
 - hap1/
