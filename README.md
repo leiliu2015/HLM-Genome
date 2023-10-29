@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## HLM-Genome
 
 HLM-***Genome*** is a *many*-polymer model to reconstruct full 3D genome structures using Hi-C data as the *sole* input. We represent a genome by using *M* polymer chains consisting of total *N* monomers, each representing a chromatin segment at a prescribed resolution. The algorithm, while similar to its previous versions ([HLM](https://github.com/leiliu2015/HLM) and [HLM-Nbody](https://github.com/leiliu2015/HLM-Nbody)), is updated by considering [PHi-C2](https://github.com/soyashinkai/PHi-C2). What's more, we modified the optimization code with [CuPy](https://github.com/cupy/cupy) to use ***GPU***, in order to construct genome models composed of thousands of monomers. 
@@ -57,3 +58,7 @@ PyMOL>@hg19_hap1.cfgs.Fig1A.pml
 
 All the output files can be deleted by typing `$ bash ./clearAll.sh` at the repository root. For further questions and possible applications about HLM-Genome, please contact Lei Liu (leiliu2015@163.com)
 
+=======
+# HLM-Genome
+Reconstructing full 3D genome structures
+>>>>>>> b35875428603a230178b05e5bcd4bd97814e1bf3
