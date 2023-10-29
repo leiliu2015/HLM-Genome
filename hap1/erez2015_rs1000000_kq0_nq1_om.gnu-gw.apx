@@ -1,0 +1,99 @@
+N = 2869
+set xrange [-0.5:N-0.5]
+set yrange [-0.5:N-0.5]
+set xtics -1,2*N,2*N nomirror
+set ytics -1,2*N,2*N nomirror
+set xtics add('1' 114)
+set ytics add('1' 114)
+set xtics add('2' 349)
+set ytics add('2' 349)
+set xtics add('3' 567)
+set ytics add('3' 567)
+set xtics add('4' 759)
+set ytics add('4' 759)
+set xtics add('5' 942)
+set ytics add('5' 942)
+set xtics add('6' 1116)
+set ytics add('6' 1116)
+set xtics add('7' 1279)
+set ytics add('7' 1279)
+set xtics add('8' 1429)
+set ytics add('8' 1429)
+set xtics add('9' 1573)
+set ytics add('9' 1573)
+set xtics add('10' 1711)
+set ytics add('10' 1711)
+set xtics add('11' 1843)
+set ytics add('11' 1843)
+set xtics add('12' 1975)
+set ytics add('12' 1975)
+set xtics add('13' 2089)
+set ytics add('13' 2089)
+set xtics add('14' 2182)
+set ytics add('14' 2182)
+set xtics add('15' 2269)
+set ytics add('15' 2269)
+set xtics add('16' 2350)
+set ytics add('16' 2350)
+set xtics add('17' 2430)
+set ytics add('17' 2430)
+set xtics add('18' 2507)
+set ytics add('18' 2507)
+set xtics add('19' 2574)
+set ytics add('19' 2574)
+set xtics add('20' 2632)
+set ytics add('20' 2632)
+set xtics add('21' 2681)
+set ytics add('21' 2681)
+set xtics add('22' 2708)
+set ytics add('22' 2708)
+set xtics add('X' 2792)
+set ytics add('X' 2792)
+set arrow  1 from graph 0, first 228.5 to graph 1, first 228.5 nohead front
+set arrow 24 from first 228.5, graph 0 to first 228.5, graph 1 nohead front
+set arrow  2 from graph 0, first 469.5 to graph 1, first 469.5 nohead front
+set arrow 25 from first 469.5, graph 0 to first 469.5, graph 1 nohead front
+set arrow  3 from graph 0, first 664.5 to graph 1, first 664.5 nohead front
+set arrow 26 from first 664.5, graph 0 to first 664.5, graph 1 nohead front
+set arrow  4 from graph 0, first 853.5 to graph 1, first 853.5 nohead front
+set arrow 27 from first 853.5, graph 0 to first 853.5, graph 1 nohead front
+set arrow  5 from graph 0, first 1031.5 to graph 1, first 1031.5 nohead front
+set arrow 28 from first 1031.5, graph 0 to first 1031.5, graph 1 nohead front
+set arrow  6 from graph 0, first 1200.5 to graph 1, first 1200.5 nohead front
+set arrow 29 from first 1200.5, graph 0 to first 1200.5, graph 1 nohead front
+set arrow  7 from graph 0, first 1357.5 to graph 1, first 1357.5 nohead front
+set arrow 30 from first 1357.5, graph 0 to first 1357.5, graph 1 nohead front
+set arrow  8 from graph 0, first 1501.5 to graph 1, first 1501.5 nohead front
+set arrow 31 from first 1501.5, graph 0 to first 1501.5, graph 1 nohead front
+set arrow  9 from graph 0, first 1644.5 to graph 1, first 1644.5 nohead front
+set arrow 32 from first 1644.5, graph 0 to first 1644.5, graph 1 nohead front
+set arrow 10 from graph 0, first 1777.5 to graph 1, first 1777.5 nohead front
+set arrow 33 from first 1777.5, graph 0 to first 1777.5, graph 1 nohead front
+set arrow 11 from graph 0, first 1909.5 to graph 1, first 1909.5 nohead front
+set arrow 34 from first 1909.5, graph 0 to first 1909.5, graph 1 nohead front
+set arrow 12 from graph 0, first 2040.5 to graph 1, first 2040.5 nohead front
+set arrow 35 from first 2040.5, graph 0 to first 2040.5, graph 1 nohead front
+set arrow 13 from graph 0, first 2137.5 to graph 1, first 2137.5 nohead front
+set arrow 36 from first 2137.5, graph 0 to first 2137.5, graph 1 nohead front
+set arrow 14 from graph 0, first 2227.5 to graph 1, first 2227.5 nohead front
+set arrow 37 from first 2227.5, graph 0 to first 2227.5, graph 1 nohead front
+set arrow 15 from graph 0, first 2310.5 to graph 1, first 2310.5 nohead front
+set arrow 38 from first 2310.5, graph 0 to first 2310.5, graph 1 nohead front
+set arrow 16 from graph 0, first 2390.5 to graph 1, first 2390.5 nohead front
+set arrow 39 from first 2390.5, graph 0 to first 2390.5, graph 1 nohead front
+set arrow 17 from graph 0, first 2469.5 to graph 1, first 2469.5 nohead front
+set arrow 40 from first 2469.5, graph 0 to first 2469.5, graph 1 nohead front
+set arrow 18 from graph 0, first 2545.5 to graph 1, first 2545.5 nohead front
+set arrow 41 from first 2545.5, graph 0 to first 2545.5, graph 1 nohead front
+set arrow 19 from graph 0, first 2602.5 to graph 1, first 2602.5 nohead front
+set arrow 42 from first 2602.5, graph 0 to first 2602.5, graph 1 nohead front
+set arrow 20 from graph 0, first 2662.5 to graph 1, first 2662.5 nohead front
+set arrow 43 from first 2662.5, graph 0 to first 2662.5, graph 1 nohead front
+set arrow 21 from graph 0, first 2700.5 to graph 1, first 2700.5 nohead front
+set arrow 44 from first 2700.5, graph 0 to first 2700.5, graph 1 nohead front
+set arrow 22 from graph 0, first 2715.5 to graph 1, first 2715.5 nohead front
+set arrow 45 from first 2715.5, graph 0 to first 2715.5, graph 1 nohead front
+set arrow 23 from graph 0, first 2868.5 to graph 1, first 2868.5 nohead front
+set arrow 46 from first 2868.5, graph 0 to first 2868.5, graph 1 nohead front
+fa = 'erez2015_rs1000000_kq0_nq1_om.txt'
+
